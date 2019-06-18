@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.20",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Tank_To_Target",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SteamVR",
