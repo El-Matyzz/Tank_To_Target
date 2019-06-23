@@ -41,4 +41,9 @@ public:
 		float speed;
 	UPROPERTY(EditAnywhere)
 		float rotationSpeed;
+
+	UPROPERTY(BlueprintReadWrite)
+		UChildActorComponent* rotor;
+	UPROPERTY(BlueprintReadWrite)
+		UChildActorComponent* upperBody;
 };

@@ -47,7 +47,7 @@ void AMyTank::MoveX(float val)
 	if (isMovingY)
 		val *= 0.5f;
 
-	currentVelocity.X = val * 100;
+	currentVelocity.X = val * 100 * speed;
 }
 
 void AMyTank::MoveY(float val)
@@ -56,17 +56,24 @@ void AMyTank::MoveY(float val)
 	if (isMovingX)
 		val *= 0.5f;
 
-	currentVelocity.Y = val * 100;
+	currentVelocity.Y = -val * 100 * speed;
 }
 
 void AMyTank::RotateX(float val)
 {
-
+	FRotator rot = upperBody->RelativeRotation;
+	rot.Yaw += rotationSpeed * val;
+	upperBody->SetRelativeRotation(rot);
 }
 
 void AMyTank::RotateY(float val)
 {
+	FRotator rot = rotor->RelativeRotation;
+	rot.Roll -= rotationSpeed * val * 0.5f;
+	if (rot.Roll > 15) rot.Roll = 15;
+	else if (rot.Roll < -20) rot.Roll = -20;
 
+	rotor->SetRelativeRotation(rot);
 }
 
 void AMyTank::Shoot()
