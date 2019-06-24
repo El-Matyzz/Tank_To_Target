@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "MyBullet.h"
-
+#include "MyTarget.h"
 
 // Sets default values
 AMyBullet::AMyBullet()
@@ -28,6 +28,10 @@ void AMyBullet::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	SetActorLocation(GetActorLocation() + GetActorRightVector() * 10000 * DeltaTime, true);
+
+	destroyTimer += DeltaTime;
+	if (destroyTimer >= 3)
+		Destroy();
 }
 
 void AMyBullet::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)

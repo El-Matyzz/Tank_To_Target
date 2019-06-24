@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "MyTarget.h"
-#include "MyTank.h"
 
 // Sets default values
 AMyTarget::AMyTarget()
@@ -90,12 +89,21 @@ void AMyTarget::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPri
 		if (targetType == 4) {
 			player->destroyedTargets--;
 			MyComp->SetEnableGravity(true);
+			MyComp->AddForceAtLocation(GetActorForwardVector() * -10000, OtherActor->GetActorLocation());
 		}
 		else {
 			player->destroyedTargets++;
 			if (targetType == 3)
-				GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Blue, "Releasing Power-ups!");
+				SpawnPowerUps();
+			GetWorld()->SpawnActor<AActor>(explosion, GetActorLocation(), GetActorRotation(), FActorSpawnParameters());
 			Destroy();
 		}
 	}
+}
+
+void AMyTarget::SpawnPowerUps()
+{
+	FActorSpawnParameters p;
+	GetWorld()->SpawnActor<AMyPowerUp>(fireRate, PH1->GetComponentLocation(), (PH1->GetComponentLocation() - GetActorLocation()).Rotation(), p);
+	GetWorld()->SpawnActor<AMyPowerUp>(shotgun, PH2->GetComponentLocation(), (PH2->GetComponentLocation() - GetActorLocation()).Rotation(), p);
 }

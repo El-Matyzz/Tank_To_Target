@@ -26,7 +26,6 @@ void AMyTank::BeginPlay()
 	}
 	armor = 5;
 	fireTimer = fireDelay;
-	shotgunMode = true;
 }
 
 // Called every frame
@@ -43,8 +42,15 @@ void AMyTank::Tick(float DeltaTime)
 	if(destroyedTargets == totalTargets)
 		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, "WIN!");
 
-	timeRemaining -= DeltaTime;
+	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
+		timeRemaining -= DeltaTime;
 	fireTimer += DeltaTime;
+	powerUpTimer -= DeltaTime;
+
+	if (powerUpTimer <= 0) {
+		unlimitedFireRate = false;
+		shotgunMode = false;
+	}
 
 	if(armor <= 0 || timeRemaining <= 0)
 		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, "LOSE!");

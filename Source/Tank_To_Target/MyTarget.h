@@ -2,8 +2,9 @@
 
 #pragma once
 
-#include "Engine.h"
+#include "CoreMinimal.h"
 #include "MyTank.h"
+#include "MyPowerUp.h"
 #include "GameFramework/Actor.h"
 #include "MyTarget.generated.h"
 
@@ -36,6 +37,18 @@ public:
 		UMaterial* mat4;
 	int targetType;
 
+	UPROPERTY(BlueprintReadWrite)
+		UChildActorComponent* PH1;
+	UPROPERTY(BlueprintReadWrite)
+		UChildActorComponent* PH2;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AMyPowerUp> fireRate;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AMyPowerUp> shotgun;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> explosion;
+
 	UPROPERTY(EditAnywhere)
 		float maxScale;
 
@@ -46,4 +59,6 @@ public:
 
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
+	void SpawnPowerUps();
 };
