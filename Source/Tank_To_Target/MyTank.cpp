@@ -79,4 +79,6 @@ void AMyTank::RotateY(float val)
 void AMyTank::Shoot()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Blue, "SHOOT!");
+	FActorSpawnParameters p;
+	GetWorld()->SpawnActor<AMyBullet>(bullet, PH->GetComponentLocation(), PH->GetComponentRotation(), p);
 }

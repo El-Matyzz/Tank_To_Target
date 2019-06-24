@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Engine.h"
+#include "MyBullet.h"
 #include "GameFramework/Pawn.h"
 #include "MyTank.generated.h"
 
@@ -46,4 +47,9 @@ public:
 		UChildActorComponent* rotor;
 	UPROPERTY(BlueprintReadWrite)
 		UChildActorComponent* upperBody;
+
+	UPROPERTY(BlueprintReadWrite)
+		UChildActorComponent* PH;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AMyBullet> bullet;
 };
