@@ -36,9 +36,12 @@ public:
 		UMaterial* mat4;
 	int targetType;
 
+	UPROPERTY(EditAnywhere)
+		float maxScale;
+
 	float disappearTimer;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UPROPERTY(VisibleAnywhere)
 		class UStaticMeshComponent* MyComp;
 
 	UFUNCTION()

@@ -16,7 +16,7 @@ void AMyTank::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (GetWorld()->GetMapName() == "Level_1") {
+	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1") {
 		totalTargets = 10;
 		timeRemaining = 40;
 	}
@@ -25,6 +25,8 @@ void AMyTank::BeginPlay()
 		timeRemaining = 60;
 	}
 	armor = 5;
+	fireTimer = fireDelay;
+	shotgunMode = true;
 }
 
 // Called every frame
@@ -40,6 +42,12 @@ void AMyTank::Tick(float DeltaTime)
 
 	if(destroyedTargets == totalTargets)
 		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, "WIN!");
+
+	timeRemaining -= DeltaTime;
+	fireTimer += DeltaTime;
+
+	if(armor <= 0 || timeRemaining <= 0)
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, "LOSE!");
 }
 
 // Called to bind functionality to input
@@ -90,7 +98,33 @@ void AMyTank::RotateY(float val)
 
 void AMyTank::Shoot()
 {
-	//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Blue, "SHOOT!");
-	FActorSpawnParameters p;
-	GetWorld()->SpawnActor<AMyBullet>(bullet, PH->GetComponentLocation(), PH->GetComponentRotation(), p);
+	if (fireTimer >= fireDelay || unlimitedFireRate)
+	{
+		if (shotgunMode)
+		{
+			for (int i = 0; i <= shotgunPellets; i++)
+			{
+				FRotator rot = PH->GetComponentRotation();
+				rot.Yaw += FMath::FRandRange(-shotgunSpread, shotgunSpread);
+				rot.Roll += FMath::FRandRange(-shotgunSpread, shotgunSpread);
+				GetWorld()->SpawnActor<AMyBullet>(bullet, PH->GetComponentLocation(), rot, FActorSpawnParameters());
+			}
+		}
+		else GetWorld()->SpawnActor<AMyBullet>(bullet, PH->GetComponentLocation(), PH->GetComponentRotation(), FActorSpawnParameters());
+		fireTimer = 0;
+	}
+}
+
+void AMyTank::UnlimitedFireRate()
+{
+	unlimitedFireRate = true;
+	shotgunMode = false;
+	powerUpTimer = powerUpTime;
+}
+
+void AMyTank::ShotgunMode()
+{
+	unlimitedFireRate = false;
+	shotgunMode = true;
+	powerUpTimer = powerUpTime;
 }

@@ -26,7 +26,7 @@ void AMyTarget::BeginPlay()
 	SetActorScale3D(FVector(0, 0, 0));
 
 	float val = rand() % 100 + 1;
-	if (GetWorld()->GetMapName() == "Level_1") {
+	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1") {
 		if (val <= 70) {
 			MyComp->SetMaterial(0, mat1);
 			targetType = 1;
@@ -64,14 +64,17 @@ void AMyTarget::BeginPlay()
 void AMyTarget::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	SetActorRotation((player->GetActorLocation() - GetActorLocation()).Rotation());
+
 	FVector currentScale = GetActorScale3D();
-	if (currentScale.X < 1)
-		SetActorScale3D(FVector(currentScale.X + DeltaTime, currentScale.Y + DeltaTime, currentScale.Z + DeltaTime));
+	if (currentScale.X < maxScale)
+		SetActorScale3D(FVector(currentScale.X + (DeltaTime * maxScale), currentScale.Y + (DeltaTime * maxScale), currentScale.Z + (DeltaTime * maxScale)));
 
 	if (targetType == 3 || targetType == 4) {
 		disappearTimer += DeltaTime;
 		if (disappearTimer >= 4) {
-			SetActorScale3D(FVector(currentScale.X - DeltaTime, currentScale.Y - DeltaTime, currentScale.Z - DeltaTime));
+			SetActorScale3D(FVector(currentScale.X - (DeltaTime * maxScale), currentScale.Y - (DeltaTime * maxScale), currentScale.Z - (DeltaTime * maxScale)));
 			if (currentScale.X <= 0)
 				Destroy();
 		}

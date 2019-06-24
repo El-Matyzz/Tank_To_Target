@@ -58,4 +58,20 @@ public:
 
 	int armor;
 	float timeRemaining;
+	
+	bool unlimitedFireRate;
+	UPROPERTY(EditAnywhere)
+		float fireDelay;
+	float fireTimer;
+	bool shotgunMode;
+	UPROPERTY(EditAnywhere)
+		float shotgunSpread;
+	UPROPERTY(EditAnywhere)
+		int shotgunPellets;
+	UPROPERTY(EditAnywhere)
+		float powerUpTime;
+	float powerUpTimer;
+
+	void UnlimitedFireRate();
+	void ShotgunMode();
 };

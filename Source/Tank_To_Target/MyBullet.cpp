@@ -33,8 +33,5 @@ void AMyBullet::Tick(float DeltaTime)
 void AMyBullet::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "ALLAHU AKBAR");
 		Destroy();
-	}
 }
