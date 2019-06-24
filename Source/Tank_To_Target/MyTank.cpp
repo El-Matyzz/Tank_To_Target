@@ -16,6 +16,15 @@ void AMyTank::BeginPlay()
 {
 	Super::BeginPlay();
 
+	if (GetWorld()->GetMapName() == "Level_1") {
+		totalTargets = 10;
+		timeRemaining = 40;
+	}
+	else {
+		totalTargets = 20;
+		timeRemaining = 60;
+	}
+	armor = 5;
 }
 
 // Called every frame
@@ -28,6 +37,9 @@ void AMyTank::Tick(float DeltaTime)
 		FVector newLocation = GetActorLocation() + (currentVelocity * DeltaTime);
 		SetActorLocation(newLocation);
 	}
+
+	if(destroyedTargets == totalTargets)
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, "WIN!");
 }
 
 // Called to bind functionality to input
@@ -78,7 +90,7 @@ void AMyTank::RotateY(float val)
 
 void AMyTank::Shoot()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Blue, "SHOOT!");
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Blue, "SHOOT!");
 	FActorSpawnParameters p;
 	GetWorld()->SpawnActor<AMyBullet>(bullet, PH->GetComponentLocation(), PH->GetComponentRotation(), p);
 }

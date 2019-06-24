@@ -52,4 +52,10 @@ public:
 		UChildActorComponent* PH;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AMyBullet> bullet;
+
+	int destroyedTargets;
+	int totalTargets;
+
+	int armor;
+	float timeRemaining;
 };
