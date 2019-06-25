@@ -5,16 +5,16 @@
 #include "CoreMinimal.h"
 #include "MyTank.h"
 #include "GameFramework/Actor.h"
-#include "MyPowerUp.generated.h"
+#include "MyBossBullet.generated.h"
 
 UCLASS()
-class TANK_TO_TARGET_API AMyPowerUp : public AActor
+class TANK_TO_TARGET_API AMyBossBullet : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AMyPowerUp();
+	AMyBossBullet();
 
 protected:
 	// Called when the game starts or when spawned
@@ -24,18 +24,17 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	AMyTank* player;
-
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UStaticMeshComponent* MyComp;
 
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
 	UPROPERTY(EditAnywhere)
-		float force;
-	float destroyTimer;
+		TSubclassOf<class AActor> explosion;
+
+	AMyTank* player;
 
 	UPROPERTY(EditAnywhere)
-		TSubclassOf<class AActor> effect;
+		float speed;
 };

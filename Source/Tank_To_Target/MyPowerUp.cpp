@@ -48,6 +48,7 @@ void AMyPowerUp::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPr
 				player->UnlimitedFireRate();
 			else
 				player->ShotgunMode();
+			GetWorld()->SpawnActor<AActor>(effect, GetActorLocation(), GetActorRotation(), FActorSpawnParameters());
 		}
 		Destroy();
 	}
