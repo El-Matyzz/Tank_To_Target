@@ -24,17 +24,15 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> fire;
+
+	UPROPERTY(EditAnywhere)
+		float speed;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		class UStaticMeshComponent* MyComp;
 
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
-
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<class AActor> explosion;
-
-	AMyTank* player;
-
-	UPROPERTY(EditAnywhere)
-		float speed;
 };

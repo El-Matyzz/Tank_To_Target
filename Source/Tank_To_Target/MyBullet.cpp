@@ -37,5 +37,21 @@ void AMyBullet::Tick(float DeltaTime)
 void AMyBullet::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
+	{
+		AMyBoss* boss = Cast<AMyBoss>(OtherActor);
+		if (boss != NULL)
+		{
+			boss->life--;
+			if (boss->life <= boss->maxLife / 2)
+				if (boss->life <= 0)
+					boss->Die();
+				else
+					if (!boss->isEnraged)
+						boss->Enrage();
+		}
+		else if (Cast<AMyBossBullet>(OtherActor))
+			Destroy(OtherActor);
+		GetWorld()->SpawnActor<AActor>(explosion, GetActorLocation(), GetActorRotation(), FActorSpawnParameters());
 		Destroy();
+	}
 }

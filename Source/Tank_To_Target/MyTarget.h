@@ -46,8 +46,6 @@ public:
 		TSubclassOf<class AMyPowerUp> fireRate;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AMyPowerUp> shotgun;
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<class AActor> explosion;
 
 	UPROPERTY(EditAnywhere)
 		float maxScale;

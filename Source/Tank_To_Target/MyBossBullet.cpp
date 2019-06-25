@@ -2,7 +2,6 @@
 
 #include "MyBossBullet.h"
 
-
 // Sets default values
 AMyBossBullet::AMyBossBullet()
 {
@@ -20,25 +19,23 @@ AMyBossBullet::AMyBossBullet()
 void AMyBossBullet::BeginPlay()
 {
 	Super::BeginPlay();
-	AActor* playerActor = GetWorld()->GetFirstPlayerController()->GetPawn();
-	player = Cast<AMyTank>(playerActor);
-	SetActorRotation((player->GetActorLocation() - GetActorLocation()).Rotation());
 }
 
 // Called every frame
 void AMyBossBullet::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	SetActorLocation(GetActorLocation() + GetActorRightVector() * speed * DeltaTime, true);
+	SetActorLocation(GetActorLocation() + GetActorForwardVector() * speed * DeltaTime, true);
 }
 
 void AMyBossBullet::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
 	{
-		if (Cast<AMyTank>(OtherActor))
+		AMyTank* player = Cast<AMyTank>(OtherActor);
+		if (player != NULL)
 			player->armor--;
-		GetWorld()->SpawnActor<AActor>(explosion, GetActorLocation(), GetActorRotation(), FActorSpawnParameters());
+		GetWorld()->SpawnActor<AActor>(fire, GetActorLocation(), GetActorRotation(), FActorSpawnParameters());
 		Destroy();
 	}
 }

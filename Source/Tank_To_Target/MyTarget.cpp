@@ -84,8 +84,6 @@ void AMyTarget::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPri
 {
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Purple, "OH NO!");
-
 		if (targetType == 4) {
 			player->destroyedTargets--;
 			MyComp->SetEnableGravity(true);
@@ -95,7 +93,6 @@ void AMyTarget::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPri
 			player->destroyedTargets++;
 			if (targetType == 3)
 				SpawnPowerUps();
-			GetWorld()->SpawnActor<AActor>(explosion, GetActorLocation(), GetActorRotation(), FActorSpawnParameters());
 			Destroy();
 		}
 	}

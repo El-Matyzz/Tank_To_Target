@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "MyBoss.h"
+#include "MyBossBullet.h"
 #include "GameFramework/Actor.h"
 #include "MyBullet.generated.h"
 
@@ -33,4 +35,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		float speed;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class AActor> explosion;
 };
