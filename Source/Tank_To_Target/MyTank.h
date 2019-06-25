@@ -27,6 +27,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//static float lives = 2;
+	float bossBarFill;
 
 	void MoveX(float val);
 	void MoveY(float val);
@@ -57,6 +59,9 @@ public:
 	int totalTargets;
 
 	int armor;
+	UPROPERTY(EditAnywhere)
+		int maxArmor;
+	float armorBarFill;
 	float timeRemaining;
 	
 	bool unlimitedFireRate;
@@ -74,4 +79,10 @@ public:
 
 	void UnlimitedFireRate();
 	void ShotgunMode();
+
+	void Lose();
+	void Win();
+	void Continue();
+
+	bool won;
 };

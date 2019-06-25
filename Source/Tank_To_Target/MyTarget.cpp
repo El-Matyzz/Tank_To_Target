@@ -70,13 +70,12 @@ void AMyTarget::Tick(float DeltaTime)
 	if (currentScale.X < maxScale)
 		SetActorScale3D(FVector(currentScale.X + (DeltaTime * maxScale), currentScale.Y + (DeltaTime * maxScale), currentScale.Z + (DeltaTime * maxScale)));
 
-	if (targetType == 3 || targetType == 4) {
-		disappearTimer += DeltaTime;
-		if (disappearTimer >= 4) {
-			SetActorScale3D(FVector(currentScale.X - (DeltaTime * maxScale), currentScale.Y - (DeltaTime * maxScale), currentScale.Z - (DeltaTime * maxScale)));
-			if (currentScale.X <= 0)
-				Destroy();
-		}
+	disappearTimer += DeltaTime;
+	if (((targetType == 3 || targetType == 4) && disappearTimer >= 4) ||
+		((targetType == 1 || targetType == 2) && disappearTimer >= 9)) {
+		SetActorScale3D(FVector(currentScale.X - (DeltaTime * maxScale), currentScale.Y - (DeltaTime * maxScale), currentScale.Z - (DeltaTime * maxScale)));
+		if (currentScale.X <= 0)
+			Destroy();
 	}
 }
 

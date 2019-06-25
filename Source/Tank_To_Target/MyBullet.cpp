@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "MyBullet.h"
-#include "MyTarget.h"
 
 // Sets default values
 AMyBullet::AMyBullet()
@@ -41,7 +40,10 @@ void AMyBullet::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPri
 		AMyBoss* boss = Cast<AMyBoss>(OtherActor);
 		if (boss != NULL)
 		{
+			AActor* playerActor = GetWorld()->GetFirstPlayerController()->GetPawn();
+			AMyTank* player = Cast<AMyTank>(playerActor);
 			boss->life--;
+			player->bossBarFill = boss->life / boss->maxLife;
 			if (boss->life <= boss->maxLife / 2)
 				if (boss->life <= 0)
 					boss->Die();

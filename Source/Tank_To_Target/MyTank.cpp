@@ -24,7 +24,7 @@ void AMyTank::BeginPlay()
 		totalTargets = 20;
 		timeRemaining = 60;
 	}
-	armor = 5;
+	armor = maxArmor;
 	fireTimer = fireDelay;
 }
 
@@ -39,21 +39,25 @@ void AMyTank::Tick(float DeltaTime)
 		SetActorLocation(newLocation);
 	}
 
-	if(destroyedTargets == totalTargets)
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, "WIN!");
+	if (destroyedTargets == totalTargets)
+		Win();
 
-	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
+	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_1" || GetWorld()->GetMapName() != "UEDPIE_0_Level_2")
 		timeRemaining -= DeltaTime;
+	else if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
+		armorBarFill = armor / maxArmor;
+
 	fireTimer += DeltaTime;
 	powerUpTimer -= DeltaTime;
+
 
 	if (powerUpTimer <= 0) {
 		unlimitedFireRate = false;
 		shotgunMode = false;
 	}
 
-	if(armor <= 0 || timeRemaining <= 0)
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Green, "LOSE!");
+	if (armor <= 0 || timeRemaining <= 0)
+		Lose();
 }
 
 // Called to bind functionality to input
@@ -65,6 +69,7 @@ void AMyTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("Rotate X", this, &AMyTank::RotateX);
 	PlayerInputComponent->BindAxis("Rotate Y", this, &AMyTank::RotateY);
 	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &AMyTank::Shoot);
+	PlayerInputComponent->BindAction("Continue", IE_Pressed, this, &AMyTank::Continue);
 }
 
 void AMyTank::MoveX(float val)
@@ -133,4 +138,32 @@ void AMyTank::ShotgunMode()
 	unlimitedFireRate = false;
 	shotgunMode = true;
 	powerUpTimer = powerUpTime;
+}
+
+void AMyTank::Win()
+{
+	//ACTIVAR PANEL DE COMPLETADO
+	won = true;
+
+	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "VICTORIA TOTAL");
+}
+
+void AMyTank::Lose()
+{
+	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "DESTRUIDO");
+	else
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "TIEMPO");
+}
+
+void AMyTank::Continue()
+{
+	if (!won)
+		return;
+
+	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_1")
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "VICTORIA 1");
+	else
+		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "VICTORIA 2");
 }

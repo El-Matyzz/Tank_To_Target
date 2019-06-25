@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "MyTank.h"
 #include "MyBossBullet.h"
-#include "MyBullet.h"
 #include "GameFramework/Actor.h"
 #include "MyBoss.generated.h"
 
