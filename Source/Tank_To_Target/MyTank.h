@@ -27,14 +27,16 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	//static float lives = 2;
-	float bossBarFill;
+	UPROPERTY(BlueprintReadOnly)
+		float bossBarFill;
 
 	void MoveX(float val);
 	void MoveY(float val);
 	void RotateX(float val);
 	void RotateY(float val);
 	void Shoot();
+
+	void SetGamePaused(bool isPaused);
 
 	FVector currentVelocity;
 	bool isMovingX;
@@ -44,6 +46,15 @@ public:
 		float speed;
 	UPROPERTY(EditAnywhere)
 		float rotationSpeed;
+
+	UPROPERTY(EditAnywhere)
+		float timeLV1;
+	UPROPERTY(EditAnywhere)
+		float targetsLV1;
+	UPROPERTY(EditAnywhere)
+		float timeLV2;
+	UPROPERTY(EditAnywhere)
+		float targetsLV2;
 
 	UPROPERTY(BlueprintReadWrite)
 		UChildActorComponent* rotor;
@@ -58,11 +69,16 @@ public:
 	int destroyedTargets;
 	int totalTargets;
 
+	UPROPERTY(BlueprintReadOnly)
+		int remainingTargets;
+
 	int armor;
 	UPROPERTY(EditAnywhere)
 		int maxArmor;
-	float armorBarFill;
-	float timeRemaining;
+	UPROPERTY(BlueprintReadOnly)
+		float armorBarFill;
+	UPROPERTY(BlueprintReadOnly)
+		float timeRemaining;
 	
 	bool unlimitedFireRate;
 	UPROPERTY(EditAnywhere)
@@ -84,5 +100,6 @@ public:
 	void Win();
 	void Continue();
 
+	UPROPERTY(BlueprintReadOnly)
 	bool won;
 };

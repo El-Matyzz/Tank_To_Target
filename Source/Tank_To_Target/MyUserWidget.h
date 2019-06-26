@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Engine.h"
+#include "Engine/World.h"
 #include "Blueprint/UserWidget.h"
 #include "MyTank.h"
 #include "MyUserWidget.generated.h"
@@ -16,16 +17,31 @@ class TANK_TO_TARGET_API UMyUserWidget : public UUserWidget
 	GENERATED_BODY()
 
 public:
-	
+	/*
 	AMyTank* player;
 	
 	UPROPERTY(BlueprintReadOnly)
-		float timeRemaining;
+		FString timeRemaining;
+	UPROPERTY(BlueprintReadOnly)
+		FString targetsRemaining;
+	UPROPERTY(BlueprintReadOnly)
+		FString currentTime;
 	UPROPERTY(BlueprintReadOnly)
 		float armorBarFill;
 	UPROPERTY(BlueprintReadOnly)
 		float bossBarFill;
+	UPROPERTY(BlueprintReadOnly)
+		bool startText;
+	float textTimer;
+	UPROPERTY(BlueprintReadOnly)
+		bool won;
 
-	virtual void NativeTick(const FGeometry& geometry, float deltaTime) override;
+	virtual void NativeTick(const FGeometry& MyGeometry, float InDeltaTime) override;
 	virtual void NativeConstruct() override;
+
+	UFUNCTION(BlueprintCallable)
+		void LoadLevel(FName levelName);
+	UFUNCTION(BlueprintCallable)
+		void Quit();
+	*/
 };

@@ -25,6 +25,10 @@ void AMyPowerUp::BeginPlay()
 	player = Cast<AMyTank>(playerActor);
 
 	MyComp->AddForce(GetActorForwardVector() * 1000000000 * force);
+	MyComp->GetUsedMaterials(mats);
+
+	float amount = mats[0]->GetName() == "Fire_Rate" ? -45 : 45;
+	AddActorLocalRotation(FRotator(amount, 0, 0));
 }
 
 // Called every frame
@@ -41,9 +45,6 @@ void AMyPowerUp::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPr
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
 	{
 		if (Cast<AMyBullet>(OtherActor) != NULL) {
-			TArray<UMaterialInterface*> mats;
-			MyComp->GetUsedMaterials(mats);
-
 			if (mats[0]->GetName() == "Fire_Rate")
 				player->UnlimitedFireRate();
 			else

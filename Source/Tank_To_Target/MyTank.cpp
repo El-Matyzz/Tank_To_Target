@@ -17,12 +17,12 @@ void AMyTank::BeginPlay()
 	Super::BeginPlay();
 
 	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1") {
-		totalTargets = 10;
-		timeRemaining = 40;
+		totalTargets = targetsLV1;
+		timeRemaining = timeLV1;
 	}
 	else {
-		totalTargets = 20;
-		timeRemaining = 60;
+		totalTargets = targetsLV2;
+		timeRemaining = timeLV2;
 	}
 	armor = maxArmor;
 	fireTimer = fireDelay;
@@ -49,7 +49,7 @@ void AMyTank::Tick(float DeltaTime)
 
 	fireTimer += DeltaTime;
 	powerUpTimer -= DeltaTime;
-
+	remainingTargets = totalTargets - destroyedTargets;
 
 	if (powerUpTimer <= 0) {
 		unlimitedFireRate = false;
@@ -142,19 +142,19 @@ void AMyTank::ShotgunMode()
 
 void AMyTank::Win()
 {
-	//ACTIVAR PANEL DE COMPLETADO
+	SetGamePaused(true);
 	won = true;
 
-	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "VICTORIA TOTAL");
+	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_3")
+		UGameplayStatics::OpenLevel(GetWorld(), "Complete");
 }
 
 void AMyTank::Lose()
 {
-	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "DESTRUIDO");
+	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_3")
+		UGameplayStatics::OpenLevel(GetWorld(), "Destroyed");
 	else
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "TIEMPO");
+		UGameplayStatics::OpenLevel(GetWorld(), "Time_Up");
 }
 
 void AMyTank::Continue()
@@ -162,8 +162,15 @@ void AMyTank::Continue()
 	if (!won)
 		return;
 
-	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_1")
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "VICTORIA 1");
+	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1")
+		UGameplayStatics::OpenLevel(GetWorld(), "Victory_1");
 	else
-		GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "VICTORIA 2");
+		UGameplayStatics::OpenLevel(GetWorld(), "Victory_2");
+}
+
+void AMyTank::SetGamePaused(bool isPaused)
+{
+	APlayerController* const MyPlayer = Cast<APlayerController>(GEngine->GetFirstLocalPlayerController(GetWorld()));
+	if (MyPlayer != NULL)
+		MyPlayer->SetPause(isPaused);
 }

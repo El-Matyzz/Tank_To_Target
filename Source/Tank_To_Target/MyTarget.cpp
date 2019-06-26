@@ -26,7 +26,7 @@ void AMyTarget::BeginPlay()
 
 	float val = rand() % 100 + 1;
 	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1") {
-		if (val <= 70) {
+		if (val <= 60) {
 			MyComp->SetMaterial(0, mat1);
 			targetType = 1;
 		}
@@ -40,11 +40,11 @@ void AMyTarget::BeginPlay()
 		}
 	}
 	else {
-		if (val <= 20) {
+		if (val <= 10) {
 			MyComp->SetMaterial(0, mat1);
 			targetType = 1;
 		}
-		else if (val <= 65) {
+		else if (val <= 55) {
 			MyComp->SetMaterial(0, mat2);
 			targetType = 2;
 		}
@@ -77,6 +77,9 @@ void AMyTarget::Tick(float DeltaTime)
 		if (currentScale.X <= 0)
 			Destroy();
 	}
+
+	if (targetType == 2)
+		AddActorLocalOffset(GetActorRightVector() * movementSpeed * DeltaTime * FMath::Sin(GetGameTimeSinceCreation()));
 }
 
 void AMyTarget::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)

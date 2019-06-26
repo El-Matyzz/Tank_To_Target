@@ -7,13 +7,10 @@ void AMyPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (hudComponent)
-	{
-		if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
-			hud = CreateWidget<UUserWidget>(this, hudComponentLevel3);
-		else
-			hud = CreateWidget<UUserWidget>(this, hudComponent);
-		if (hud)
-			hud->AddToViewport();
-	}
+	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_3")
+		hud = CreateWidget<UUserWidget>(this, hudComponentLevel3);
+	else if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1" || GetWorld()->GetMapName() == "UEDPIE_0_Level_2")
+		hud = CreateWidget<UUserWidget>(this, hudComponent);
+	if (hud)
+		hud->AddToViewport();
 }

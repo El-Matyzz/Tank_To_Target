@@ -38,4 +38,6 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AActor> effect;
+
+	TArray<UMaterialInterface*> mats;
 };

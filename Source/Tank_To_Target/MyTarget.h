@@ -49,6 +49,8 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		float maxScale;
+	UPROPERTY(EditAnywhere)
+		float movementSpeed;
 
 	float disappearTimer;
 
