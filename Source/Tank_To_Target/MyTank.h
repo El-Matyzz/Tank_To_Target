@@ -102,4 +102,14 @@ public:
 
 	UPROPERTY(BlueprintReadOnly)
 	bool won;
+
+	UPROPERTY(EditAnywhere)
+		USoundCue* countdown;
+	UPROPERTY(EditAnywhere)
+		USoundCue* complete;
+	UPROPERTY(VisibleAnywhere)
+		UAudioComponent* audioComponent;
+	bool isCountingDown;
+
+	FString extraName;
 };

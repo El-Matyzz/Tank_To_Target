@@ -17,8 +17,10 @@ void AMyTank::BeginPlay()
 	Super::BeginPlay();
 
 	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 1);
+	audioComponent = FindComponentByClass<UAudioComponent>();
+	extraName = GetWorld()->WorldType == EWorldType::PIE ? "UEDPIE_0_" : "";
 
-	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1") {
+	if (GetWorld()->GetMapName() == extraName + "Level_1") {
 		totalTargets = targetsLV1;
 		timeRemaining = timeLV1;
 	}
@@ -30,6 +32,7 @@ void AMyTank::BeginPlay()
 	fireTimer = fireDelay;
 	bossBarFill = 1;
 	armorBarFill = 1;
+	isCountingDown = false;
 }
 
 // Called every frame
@@ -46,7 +49,7 @@ void AMyTank::Tick(float DeltaTime)
 	if (destroyedTargets == totalTargets)
 		Win();
 
-	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_1" || GetWorld()->GetMapName() != "UEDPIE_0_Level_2")
+	if (GetWorld()->GetMapName() != extraName + "Level_1" || GetWorld()->GetMapName() != extraName + "Level_2")
 		timeRemaining -= DeltaTime;
 
 	armorBarFill = armor / maxArmor;
@@ -61,6 +64,13 @@ void AMyTank::Tick(float DeltaTime)
 
 	if (armor <= 0 || timeRemaining <= 0)
 		Lose();
+
+	if (timeRemaining <= 5 && !isCountingDown){
+		audioComponent->Stop();
+		audioComponent->Sound = countdown;
+		audioComponent->Play();
+		isCountingDown = true;
+	}
 }
 
 // Called to bind functionality to input
@@ -157,18 +167,21 @@ void AMyTank::Win()
 {
 	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 0.0001f);
 	won = true;
+	audioComponent->Stop();
+	audioComponent->Sound = complete;
+	audioComponent->Play();
 
-	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_3")
+	if (GetWorld()->GetMapName() == extraName + "Level_3")
 		UGameplayStatics::OpenLevel(GetWorld(), "Complete");
 }
 
 void AMyTank::Lose()
 {
-	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1")
+	if (GetWorld()->GetMapName() == extraName + "Level_1")
 		UGameplayStatics::OpenLevel(GetWorld(), "Lose_1");
-	else if (GetWorld()->GetMapName() == "UEDPIE_0_Level_2")
+	else if (GetWorld()->GetMapName() == extraName + "Level_2")
 		UGameplayStatics::OpenLevel(GetWorld(), "Lose_2");
-	else if (GetWorld()->GetMapName() == "UEDPIE_0_Level_3")
+	else if (GetWorld()->GetMapName() == extraName + "Level_3")
 		UGameplayStatics::OpenLevel(GetWorld(), "Lose_3");
 }
 
@@ -176,7 +189,7 @@ void AMyTank::Continue()
 {
 	if (!won) return;
 
-	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1")
+	if (GetWorld()->GetMapName() == extraName + "Level_1")
 		UGameplayStatics::OpenLevel(GetWorld(), "Victory_1");
 	else
 		UGameplayStatics::OpenLevel(GetWorld(), "Victory_2");

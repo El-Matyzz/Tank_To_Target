@@ -23,9 +23,10 @@ void AMyTarget::BeginPlay()
 	player = Cast<AMyTank>(playerActor);
 
 	SetActorScale3D(FVector(0, 0, 0));
+	FString extraName = GetWorld()->WorldType == EWorldType::PIE ? "UEDPIE_0_" : "";
 
 	float val = rand() % 100 + 1;
-	if (GetWorld()->GetMapName() == "Level_1") {
+	if (GetWorld()->GetMapName() == extraName + "Level_1") {
 		if (val <= 60) {
 			MyComp->SetMaterial(0, mat1);
 			targetType = 1;
@@ -86,6 +87,8 @@ void AMyTarget::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPri
 {
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
 	{
+		if (Cast<AMyBullet>(OtherActor) == NULL) Destroy();
+
 		if (targetType == 4) {
 			player->destroyedTargets--;
 			MyComp->SetEnableGravity(true);
