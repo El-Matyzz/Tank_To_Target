@@ -47,8 +47,8 @@ public:
 		float enragedSpeed;
 
 	UPROPERTY(EditAnywhere)
-		int maxLife;
-	int life;
+		float maxLife;
+	float life;
 
 	UPROPERTY(BlueprintReadWrite)
 		TArray<UChildActorComponent*> allPHs;

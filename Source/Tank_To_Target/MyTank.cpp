@@ -16,6 +16,8 @@ void AMyTank::BeginPlay()
 {
 	Super::BeginPlay();
 
+	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 1);
+
 	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1") {
 		totalTargets = targetsLV1;
 		timeRemaining = timeLV1;
@@ -26,6 +28,8 @@ void AMyTank::BeginPlay()
 	}
 	armor = maxArmor;
 	fireTimer = fireDelay;
+	bossBarFill = 1;
+	armorBarFill = 1;
 }
 
 // Called every frame
@@ -44,9 +48,8 @@ void AMyTank::Tick(float DeltaTime)
 
 	if (GetWorld()->GetMapName() != "UEDPIE_0_Level_1" || GetWorld()->GetMapName() != "UEDPIE_0_Level_2")
 		timeRemaining -= DeltaTime;
-	else if (GetWorld()->GetMapName() != "UEDPIE_0_Level_3")
-		armorBarFill = armor / maxArmor;
 
+	armorBarFill = armor / maxArmor;
 	fireTimer += DeltaTime;
 	powerUpTimer -= DeltaTime;
 	remainingTargets = totalTargets - destroyedTargets;
@@ -74,6 +77,8 @@ void AMyTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void AMyTank::MoveX(float val)
 {
+	if (won) return;
+
 	isMovingX = val != 0;
 	if (isMovingY)
 		val *= 0.5f;
@@ -83,6 +88,8 @@ void AMyTank::MoveX(float val)
 
 void AMyTank::MoveY(float val)
 {
+	if (won) return;
+
 	isMovingY = val != 0;
 	if (isMovingX)
 		val *= 0.5f;
@@ -92,6 +99,8 @@ void AMyTank::MoveY(float val)
 
 void AMyTank::RotateX(float val)
 {
+	if (won) return;
+
 	FRotator rot = upperBody->RelativeRotation;
 	rot.Yaw += rotationSpeed * val;
 	upperBody->SetRelativeRotation(rot);
@@ -99,6 +108,8 @@ void AMyTank::RotateX(float val)
 
 void AMyTank::RotateY(float val)
 {
+	if (won) return;
+
 	FRotator rot = rotor->RelativeRotation;
 	rot.Roll -= rotationSpeed * val * 0.5f;
 	if (rot.Roll > 15) rot.Roll = 15;
@@ -109,6 +120,8 @@ void AMyTank::RotateY(float val)
 
 void AMyTank::Shoot()
 {
+	if (won) return;
+
 	if (fireTimer >= fireDelay || unlimitedFireRate)
 	{
 		if (shotgunMode)
@@ -142,7 +155,7 @@ void AMyTank::ShotgunMode()
 
 void AMyTank::Win()
 {
-	SetGamePaused(true);
+	UGameplayStatics::SetGlobalTimeDilation(GetWorld(), 0.0001f);
 	won = true;
 
 	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_3")
@@ -151,16 +164,17 @@ void AMyTank::Win()
 
 void AMyTank::Lose()
 {
-	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_3")
-		UGameplayStatics::OpenLevel(GetWorld(), "Destroyed");
-	else
-		UGameplayStatics::OpenLevel(GetWorld(), "Time_Up");
+	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1")
+		UGameplayStatics::OpenLevel(GetWorld(), "Lose_1");
+	else if (GetWorld()->GetMapName() == "UEDPIE_0_Level_2")
+		UGameplayStatics::OpenLevel(GetWorld(), "Lose_2");
+	else if (GetWorld()->GetMapName() == "UEDPIE_0_Level_3")
+		UGameplayStatics::OpenLevel(GetWorld(), "Lose_3");
 }
 
 void AMyTank::Continue()
 {
-	if (!won)
-		return;
+	if (!won) return;
 
 	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1")
 		UGameplayStatics::OpenLevel(GetWorld(), "Victory_1");

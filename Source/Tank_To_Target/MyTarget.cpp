@@ -25,7 +25,7 @@ void AMyTarget::BeginPlay()
 	SetActorScale3D(FVector(0, 0, 0));
 
 	float val = rand() % 100 + 1;
-	if (GetWorld()->GetMapName() == "UEDPIE_0_Level_1") {
+	if (GetWorld()->GetMapName() == "Level_1") {
 		if (val <= 60) {
 			MyComp->SetMaterial(0, mat1);
 			targetType = 1;

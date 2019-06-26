@@ -27,8 +27,7 @@ void AMyPowerUp::BeginPlay()
 	MyComp->AddForce(GetActorForwardVector() * 1000000000 * force);
 	MyComp->GetUsedMaterials(mats);
 
-	float amount = mats[0]->GetName() == "Fire_Rate" ? -45 : 45;
-	AddActorLocalRotation(FRotator(amount, 0, 0));
+	AddActorLocalRotation(FRotator(-45, 0, 0));
 }
 
 // Called every frame

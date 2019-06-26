@@ -72,9 +72,9 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 		int remainingTargets;
 
-	int armor;
+	float armor;
 	UPROPERTY(EditAnywhere)
-		int maxArmor;
+		float maxArmor;
 	UPROPERTY(BlueprintReadOnly)
 		float armorBarFill;
 	UPROPERTY(BlueprintReadOnly)

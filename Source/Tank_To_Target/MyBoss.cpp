@@ -77,7 +77,9 @@ void AMyBoss::Shoot()
 
 void AMyBoss::Die()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1.0, FColor::Red, "ALLAHU AKBAR");
+	AActor* playerActor = GetWorld()->GetFirstPlayerController()->GetPawn();
+	AMyTank* player = Cast<AMyTank>(playerActor);
+	player->Win();
 }
 
 void AMyBoss::Enrage()
