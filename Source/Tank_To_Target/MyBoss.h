@@ -6,6 +6,7 @@
 #include "MyTank.h"
 #include "MyBossBullet.h"
 #include "GameFramework/Actor.h"
+#include "MyAnimInstance.h"
 #include "MyBoss.generated.h"
 
 UCLASS()
@@ -38,8 +39,6 @@ public:
 	float directionTimer;
 
 	bool isEnraged;
-	UPROPERTY(EditAnywhere)
-		UStaticMesh* enragedMesh;
 
 	UPROPERTY(EditAnywhere)
 		float baseSpeed;
@@ -51,7 +50,7 @@ public:
 	float life;
 
 	UPROPERTY(BlueprintReadWrite)
-		TArray<UChildActorComponent*> allPHs;
+		UChildActorComponent* PH;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class AMyBossBullet> bullet;
 	UPROPERTY(EditAnywhere)
@@ -65,6 +64,14 @@ public:
 	void Die();
 	void Enrage();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		class UStaticMeshComponent* MyComp;
+	UMyAnimInstance* anim;
+	float attackEndTimer;
+	UPROPERTY(EditAnywhere)
+		float shootTime;
+	float dieEndTimer;
+	UPROPERTY(EditAnywhere)
+		float dieTime;
+	bool justShot;
+
+	void LookAtPlayer();
 };
