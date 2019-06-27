@@ -80,11 +80,13 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 		float timeRemaining;
 	
-	bool unlimitedFireRate;
+	UPROPERTY(BlueprintReadOnly)
+		bool unlimitedFireRate;
 	UPROPERTY(EditAnywhere)
 		float fireDelay;
 	float fireTimer;
-	bool shotgunMode;
+	UPROPERTY(BlueprintReadOnly)
+		bool shotgunMode;
 	UPROPERTY(EditAnywhere)
 		float shotgunSpread;
 	UPROPERTY(EditAnywhere)

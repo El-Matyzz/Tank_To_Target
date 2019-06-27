@@ -87,19 +87,20 @@ void AMyTarget::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPri
 {
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
 	{
-		if (Cast<AMyBullet>(OtherActor) == NULL) Destroy();
-
-		if (targetType == 4) {
-			player->destroyedTargets--;
-			MyComp->SetEnableGravity(true);
-			MyComp->AddForceAtLocation(GetActorForwardVector() * -10000, OtherActor->GetActorLocation());
+		if (Cast<AMyBullet>(OtherActor) != NULL) {
+			if (targetType == 4) {
+				player->destroyedTargets--;
+				MyComp->SetEnableGravity(true);
+				MyComp->AddForceAtLocation(GetActorForwardVector() * -10000, OtherActor->GetActorLocation());
+			}
+			else {
+				player->destroyedTargets++;
+				if (targetType == 3)
+					SpawnPowerUps();
+				Destroy();
+			}
 		}
-		else {
-			player->destroyedTargets++;
-			if (targetType == 3)
-				SpawnPowerUps();
-			Destroy();
-		}
+		else Destroy();
 	}
 }
 

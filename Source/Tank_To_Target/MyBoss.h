@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "MyTank.h"
 #include "MyBossBullet.h"
 #include "GameFramework/Actor.h"
 #include "MyAnimInstance.h"

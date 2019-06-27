@@ -26,45 +26,48 @@ void AMyBoss::BeginPlay()
 void AMyBoss::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	directionTimer += DeltaTime;
-	shootTimer += DeltaTime;
 
-	if (isEnraged)
-	{
-		if (directionTimer >= enragedDirectionTime)
-			ChangeDirection();
-		if (shootTimer >= enragedShootTime) {
-			anim->isAttacking = true;
-			justShot = false;
+	if (!anim->isDead) {
+		directionTimer += DeltaTime;
+		shootTimer += DeltaTime;
+
+		if (isEnraged)
+		{
+			if (directionTimer >= enragedDirectionTime)
+				ChangeDirection();
+			if (shootTimer >= enragedShootTime) {
+				anim->isAttacking = true;
+				justShot = false;
+			}
+			Move(enragedSpeed, DeltaTime);
 		}
-		Move(enragedSpeed, DeltaTime);
+		else
+		{
+			if (directionTimer >= baseDirectionTime)
+				ChangeDirection();
+			if (shootTimer >= baseShootTime) {
+				anim->isAttacking = true;
+				justShot = false;
+			}
+			Move(baseSpeed, DeltaTime);
+		}
+
+		if (anim->isAttacking) {
+			attackEndTimer += DeltaTime;
+			LookAtPlayer();
+			anim->isRunning = false;
+			anim->isWalking = false;
+			if (attackEndTimer >= shootTime)
+				if (attackEndTimer >= 2.3f) {
+					anim->isAttacking = false;
+					attackEndTimer = 0;
+				}
+				else if (!justShot)
+					Shoot();
+		}
 	}
 	else
 	{
-		if (directionTimer >= baseDirectionTime)
-			ChangeDirection();
-		if (shootTimer >= baseShootTime) {
-			anim->isAttacking = true;
-			justShot = false;
-		}
-		Move(baseSpeed, DeltaTime);
-	}
-
-	if (anim->isAttacking) {
-		attackEndTimer += DeltaTime;
-		LookAtPlayer();
-		anim->isRunning = false;
-		anim->isWalking = false;
-		if (attackEndTimer >= shootTime)
-			if (attackEndTimer >= 2.3f) {
-				anim->isAttacking = false;
-				attackEndTimer = 0;
-			}
-			else if (!justShot)
-				Shoot();
-	}
-
-	if (anim->isDead) {
 		dieEndTimer += DeltaTime;
 		if (dieEndTimer >= dieTime) {
 			AActor* playerActor = GetWorld()->GetFirstPlayerController()->GetPawn();
@@ -84,7 +87,7 @@ void AMyBoss::ChangeDirection()
 
 void AMyBoss::Move(float speed, float deltaTime)
 {
-	if (anim->isAttacking) return;
+	if (anim->isAttacking || anim->isDead) return;
 	else if (isEnraged) {
 		anim->isRunning = true;
 		anim->isWalking = false;
