@@ -67,365 +67,365 @@
 "D:/Da Vinci/Tank_To_Target/Content/Objects/Boss/07_-_Default.uasset" 66
 "D:/Da Vinci/Tank_To_Target/Content/Objects/Boss/Boss_Fase_1.uasset" 67
 "D:/Da Vinci/Tank_To_Target/Content/Objects/Boss/Boss_Fase_2.uasset" 68
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinHulk_diffuse.uasset" 69
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinHulk_normal.uasset" 70
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/PumpkinHulk_Material.uasset" 71
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinhulk_l_shaw_PhysicsAsset.uasset" 72
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinhulk_l_shaw_Skeleton.uasset" 73
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinhulk_l_shaw.uasset" 74
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Materials/M_Basic_Wall.uasset" 75
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Pillar_50x500.uasset" 76
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_400x300.uasset" 77
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_400x400.uasset" 78
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_500x500.uasset" 79
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 80
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 81
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Collapse01.uasset" 82
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Collapse02.uasset" 83
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Explosion01.uasset" 84
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Explosion02.uasset" 85
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Fire01.uasset" 86
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Fire_Sparks01.uasset" 87
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Light01.uasset" 88
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Light01_Cue.uasset" 89
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Light02.uasset" 90
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Light02_Cue.uasset" 91
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Smoke01.uasset" 92
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Starter_Birds01.uasset" 93
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Starter_Music01.uasset" 94
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Starter_Wind05.uasset" 95
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Starter_Wind06.uasset" 96
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Steam01.uasset" 97
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 98
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 99
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 100
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Bush_D.uasset" 101
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Bush_N.uasset" 102
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Bush.uasset" 103
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Bush.uasset" 104
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Chair_M.uasset" 105
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Chair_N.uasset" 106
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Chair.uasset" 107
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Couch.uasset" 108
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Materials/M_Glass.uasset" 109
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Door_M.uasset" 110
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Door_N.uasset" 111
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Door.uasset" 112
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Door.uasset" 113
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 114
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 115
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 116
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 117
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 118
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 119
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_RockMesh_M.uasset" 120
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_RockMesh_N.uasset" 121
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Rock.uasset" 122
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Rock.uasset" 123
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Shelf_M.uasset" 124
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Shelf_N.uasset" 125
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Shelf.uasset" 126
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Shelf.uasset" 127
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Materials/M_Basic_Floor.uasset" 128
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Stairs.uasset" 129
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Cone.uasset" 130
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 131
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 132
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Pipe.uasset" 133
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 134
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 135
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Plane.uasset" 136
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Torus.uasset" 137
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Trim.uasset" 138
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 139
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 140
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 141
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Tube.uasset" 142
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 143
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 144
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 145
-"D:/Da Vinci/Tank_To_Target/Content/UI/Press_ENTER.uasset" 146
-"D:/Da Vinci/Tank_To_Target/Content/UI/Backgrounds/Start_Screen.uasset" 147
-"D:/Da Vinci/Tank_To_Target/Content/UI/Backgrounds/Ultimate_Failure.uasset" 148
-"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_01.uasset" 149
-"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_01__Cyan_.uasset" 150
-"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_01__Red_.uasset" 151
-"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_02.uasset" 152
-"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_02__Cyan_.uasset" 153
-"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_02__Red_.uasset" 154
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 155
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 156
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 157
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 158
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 159
-"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 160
-"../../../Engine/Content/BasicShapes/Cone.uasset" 161
-"../../../Engine/Content/BasicShapes/Cube.uasset" 162
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 163
-"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 164
-"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 165
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 166
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 167
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 168
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 169
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 170
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 171
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 172
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 173
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 174
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 175
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 176
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 177
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 178
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 179
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 180
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 181
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 182
-"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 183
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 184
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 185
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 186
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 187
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 188
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 189
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 190
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 191
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 192
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 193
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 194
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 195
-"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 196
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 197
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 198
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 199
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 200
-"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 201
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 202
-"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 203
-"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 204
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 205
-"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 206
-"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 207
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 208
-"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 209
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 210
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 211
-"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 212
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 213
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 214
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 215
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 216
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 217
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 218
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 219
-"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 220
-"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 221
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 222
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 223
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 224
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 225
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 226
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 227
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 228
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 229
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 230
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 231
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 232
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 233
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 234
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 235
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 236
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 237
-"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 238
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 239
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 240
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 241
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 242
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 243
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 244
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 245
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 246
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 247
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 248
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 249
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 250
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 251
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 252
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 253
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 254
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 255
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 256
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 257
-"../../../Engine/Content/EngineResources/Black.uasset" 258
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 259
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 260
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 261
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 262
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 263
-"../../../Engine/Content/EngineSounds/Master.uasset" 264
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 265
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 266
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 267
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 268
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 269
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 270
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 271
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 272
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 273
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 274
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 275
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 276
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 277
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 278
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 279
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 280
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 281
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 282
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 283
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 284
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 285
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 286
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 287
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 288
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 289
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 290
-"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 291
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 292
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 293
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 294
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 295
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 296
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 297
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 298
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 299
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 300
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 301
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 302
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 303
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 304
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 305
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 306
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 307
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 308
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 309
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 310
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 311
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 312
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 313
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 314
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 315
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 316
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 317
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_Stars.uasset" 318
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_SunLight.uasset" 319
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_AllOverlayColor.uasset" 320
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_BaseCloudColor.uasset" 321
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_DomeColor.uasset" 322
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_horizon_Color.uasset" 323
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_SunDirection_Vector.uasset" 324
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Structure/Structure_GoodSky.uasset" 325
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/DataTable/DataTable_GoodSky.uasset" 326
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/ArrowTool/T_GoodSky_SkyRing.uasset" 327
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/ArrowTool/M_GoodSky_SkyRing_.uasset" 328
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/ArrowTool/M_GoodSky_Sun_Emissive.uasset" 329
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 330
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/Material_Function/MF_GoodSky_SkyDomeAlpha.uasset" 331
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/Material_Function/MF_GoodSky_Time.uasset" 332
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_A.uasset" 333
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_B.uasset" 334
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_F.uasset" 335
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_sphere.uasset" 336
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/M_GoodSky_Base.uasset" 337
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset" 338
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.uasset" 339
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsAroundPoint.uasset" 340
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_Moon.uasset" 341
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/M_GoodSky_Moon.uasset" 342
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel.uasset" 343
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping.uasset" 344
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 345
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.uasset" 346
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset" 347
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues.uasset" 348
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat3Values.uasset" 349
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 350
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/RGBtoHSV.uasset" 351
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 352
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat4Values.uasset" 353
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_Lightning.uasset" 354
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/M_GoodSky_Storm.uasset" 355
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_Stars.uasset" 356
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/M_GoodSky_Sun_Stars.uasset" 357
-"../../../Engine/Content/BasicShapes/Plane.uasset" 358
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 359
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/ArrowTool/SM_GoodSky_StarMesh.uasset" 360
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_Clouds_Coverage.uasset" 361
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_Effects.uasset" 362
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_MeshType.uasset" 363
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_Preset.uasset" 364
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_Style_Clouds.uasset" 365
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Mesh/SM_GoodSky_Hemisphere.uasset" 366
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Mesh/SM_GoodSky_Sphere.uasset" 367
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_C.uasset" 368
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_D.uasset" 369
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_E.uasset" 370
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Blueprint/BP_GoodSky.uasset" 371
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/UI/WB_GoodSky_Menu.uasset" 372
-"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Maps/Level_GoodSky_Showcase.umap" 373
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 374
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 375
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 376
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Water_N.uasset" 377
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 378
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 379
-"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Particles/P_Fire.uasset" 380
-"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/Fire_BP.uasset" 381
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Power-Up/Fire_Rate.uasset" 382
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Power-Up/Power_Up.uasset" 383
-"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/Fire_Rate_BP.uasset" 384
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Power-Up/Shotgun.uasset" 385
-"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/Shotgun_BP.uasset" 386
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target_Texture_1.uasset" 387
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Material_1.uasset" 388
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target_Texture_2.uasset" 389
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Material_2.uasset" 390
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target_Texture_3.uasset" 391
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Material_3.uasset" 392
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target_Texture_4.uasset" 393
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Material_4.uasset" 394
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target.uasset" 395
-"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/MyTarget_BP.uasset" 396
-"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/Spawn_Volume.uasset" 397
-"D:/Da Vinci/Tank_To_Target/Content/Levels/Level_1_BuiltData.uasset" 398
-"D:/Da Vinci/Tank_To_Target/Content/Audio/Announcer/GO.uasset" 399
-"D:/Da Vinci/Tank_To_Target/Content/Audio/Lv_1.uasset" 400
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Plants_Opacity.uasset" 401
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Plants_Texture.uasset" 402
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Plane048Mat.uasset" 403
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Plants.uasset" 404
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Floor_Texture.uasset" 405
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Piso_AfueraMat.uasset" 406
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Stage_Opacity.uasset" 407
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Stage_Texture.uasset" 408
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/PlaneMat.uasset" 409
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Stage.uasset" 410
-"D:/Da Vinci/Tank_To_Target/Content/Levels/Level_1.umap" 411
-"D:/Da Vinci/Tank_To_Target/Content/Levels/Level_2_BuiltData.uasset" 412
-"D:/Da Vinci/Tank_To_Target/Content/Audio/Lv_2.uasset" 413
-"D:/Da Vinci/Tank_To_Target/Content/Levels/Level_2.umap" 414
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/Animations/Standing_1H_Magic_Attack_01.uasset" 415
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/Animations/Standing_React_Death_Backward.uasset" 416
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/Animations/Standing_Run_Forward.uasset" 417
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/Animations/Standing_Walk_Forward.uasset" 418
-"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/MyAnim_BP.uasset" 419
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/CIlinders_Texture.uasset" 420
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Cylinder001Mat.uasset" 421
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Cylinder002Mat.uasset" 422
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Cylinder003Mat.uasset" 423
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Sphere_Texture.uasset" 424
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Sphere001Mat.uasset" 425
-"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Boss_Bullet.uasset" 426
-"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/MyBossBullet_BP.uasset" 427
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Materials/M_Basic_Wall.uasset" 69
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Pillar_50x500.uasset" 70
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_400x300.uasset" 71
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_400x400.uasset" 72
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_500x500.uasset" 73
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 74
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 75
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Collapse01.uasset" 76
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Collapse02.uasset" 77
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Explosion01.uasset" 78
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Explosion02.uasset" 79
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Fire01.uasset" 80
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Fire_Sparks01.uasset" 81
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Light01.uasset" 82
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Light01_Cue.uasset" 83
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Light02.uasset" 84
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Light02_Cue.uasset" 85
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Smoke01.uasset" 86
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Starter_Birds01.uasset" 87
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Starter_Music01.uasset" 88
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Starter_Wind05.uasset" 89
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Starter_Wind06.uasset" 90
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Audio/Steam01.uasset" 91
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 92
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 93
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 94
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Bush_D.uasset" 95
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Bush_N.uasset" 96
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Bush.uasset" 97
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Bush.uasset" 98
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Chair_M.uasset" 99
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Chair_N.uasset" 100
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Chair.uasset" 101
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Couch.uasset" 102
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Materials/M_Glass.uasset" 103
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Door_M.uasset" 104
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Door_N.uasset" 105
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Door.uasset" 106
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Door.uasset" 107
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 108
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 109
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 110
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 111
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 112
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 113
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_RockMesh_M.uasset" 114
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_RockMesh_N.uasset" 115
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Rock.uasset" 116
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Rock.uasset" 117
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Shelf_M.uasset" 118
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Shelf_N.uasset" 119
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/Materials/M_Shelf.uasset" 120
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Shelf.uasset" 121
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Materials/M_Basic_Floor.uasset" 122
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Props/SM_Stairs.uasset" 123
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Cone.uasset" 124
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 125
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 126
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Pipe.uasset" 127
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 128
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 129
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Plane.uasset" 130
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Torus.uasset" 131
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Trim.uasset" 132
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 133
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 134
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 135
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Tube.uasset" 136
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 137
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 138
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 139
+"D:/Da Vinci/Tank_To_Target/Content/UI/Press_ENTER.uasset" 140
+"D:/Da Vinci/Tank_To_Target/Content/UI/Backgrounds/Start_Screen.uasset" 141
+"D:/Da Vinci/Tank_To_Target/Content/UI/Backgrounds/Ultimate_Failure.uasset" 142
+"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_01.uasset" 143
+"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_01__Cyan_.uasset" 144
+"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_01__Red_.uasset" 145
+"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_02.uasset" 146
+"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_02__Cyan_.uasset" 147
+"D:/Da Vinci/Tank_To_Target/Content/UI/Buttons/Button_02__Red_.uasset" 148
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 149
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 150
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 151
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 152
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 153
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 154
+"../../../Engine/Content/BasicShapes/Cone.uasset" 155
+"../../../Engine/Content/BasicShapes/Cube.uasset" 156
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 157
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 158
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 159
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 160
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 161
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 162
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 163
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 164
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 165
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 166
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 167
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 168
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 169
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 170
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 171
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 172
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 173
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 174
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 175
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 176
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 177
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 178
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 179
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 180
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 181
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 182
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 183
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 184
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 185
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 186
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 187
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 188
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 189
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 190
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 191
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 192
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 193
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 194
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 195
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 196
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 197
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 198
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 199
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 200
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 201
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 202
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 203
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 204
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 205
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 206
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 207
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 208
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 209
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 210
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 211
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 212
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 213
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 214
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 215
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 216
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 217
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 218
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 219
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 220
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 221
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 222
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 223
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 224
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 225
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 226
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 227
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 228
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 229
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 230
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 231
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 232
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 233
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 234
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 235
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 236
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 237
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 238
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 239
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 240
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 241
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 242
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 243
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 244
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 245
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 246
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 247
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 248
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 249
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 250
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 251
+"../../../Engine/Content/EngineResources/Black.uasset" 252
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 253
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 254
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 255
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 256
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 257
+"../../../Engine/Content/EngineSounds/Master.uasset" 258
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 259
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 260
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 261
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 262
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 263
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 264
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 265
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 266
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 267
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 268
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 269
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 270
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 271
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 272
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 273
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 274
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 275
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 276
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 277
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 278
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 279
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 280
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 281
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 282
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 283
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 284
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 285
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 286
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 287
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 288
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 289
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 290
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 291
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 292
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 293
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 294
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 295
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 296
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 297
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 298
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 299
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 300
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 301
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 302
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 303
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 304
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 305
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 306
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 307
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 308
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 309
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 310
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 311
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_Stars.uasset" 312
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_SunLight.uasset" 313
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_AllOverlayColor.uasset" 314
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_BaseCloudColor.uasset" 315
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_DomeColor.uasset" 316
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_horizon_Color.uasset" 317
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Curve/Curve_GoodSky_SunDirection_Vector.uasset" 318
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Structure/Structure_GoodSky.uasset" 319
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/DataTable/DataTable_GoodSky.uasset" 320
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/ArrowTool/T_GoodSky_SkyRing.uasset" 321
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/ArrowTool/M_GoodSky_SkyRing_.uasset" 322
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/ArrowTool/M_GoodSky_Sun_Emissive.uasset" 323
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 324
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/Material_Function/MF_GoodSky_SkyDomeAlpha.uasset" 325
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/Material_Function/MF_GoodSky_Time.uasset" 326
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_A.uasset" 327
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_B.uasset" 328
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_F.uasset" 329
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_sphere.uasset" 330
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/M_GoodSky_Base.uasset" 331
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset" 332
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.uasset" 333
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsAroundPoint.uasset" 334
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_Moon.uasset" 335
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/M_GoodSky_Moon.uasset" 336
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ComputeMipLevel.uasset" 337
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/TextureCropping.uasset" 338
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 339
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.uasset" 340
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset" 341
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugScalarValues.uasset" 342
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat3Values.uasset" 343
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 344
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/RGBtoHSV.uasset" 345
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 346
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DebugFloat4Values.uasset" 347
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_Lightning.uasset" 348
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/M_GoodSky_Storm.uasset" 349
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_Stars.uasset" 350
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Materials/M_GoodSky_Sun_Stars.uasset" 351
+"../../../Engine/Content/BasicShapes/Plane.uasset" 352
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 353
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/ArrowTool/SM_GoodSky_StarMesh.uasset" 354
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_Clouds_Coverage.uasset" 355
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_Effects.uasset" 356
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_MeshType.uasset" 357
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_Preset.uasset" 358
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Data/Enum/Enum_GoodSky_Style_Clouds.uasset" 359
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Mesh/SM_GoodSky_Hemisphere.uasset" 360
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Mesh/SM_GoodSky_Sphere.uasset" 361
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_C.uasset" 362
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_D.uasset" 363
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/Textures/T_GoodSky_clouds_E.uasset" 364
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Blueprint/BP_GoodSky.uasset" 365
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Source/UI/WB_GoodSky_Menu.uasset" 366
+"D:/Da Vinci/Tank_To_Target/Content/GoodSky/Maps/Level_GoodSky_Showcase.umap" 367
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 368
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 369
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 370
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Textures/T_Water_N.uasset" 371
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 372
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 373
+"D:/Da Vinci/Tank_To_Target/Content/StarterContent/Particles/P_Fire.uasset" 374
+"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/Fire_BP.uasset" 375
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Power-Up/Fire_Rate.uasset" 376
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Power-Up/Power_Up.uasset" 377
+"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/Fire_Rate_BP.uasset" 378
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Power-Up/Shotgun.uasset" 379
+"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/Shotgun_BP.uasset" 380
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target_Texture_1.uasset" 381
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Material_1.uasset" 382
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target_Texture_2.uasset" 383
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Material_2.uasset" 384
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target_Texture_3.uasset" 385
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Material_3.uasset" 386
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target_Texture_4.uasset" 387
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Material_4.uasset" 388
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Target/Target.uasset" 389
+"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/MyTarget_BP.uasset" 390
+"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/Spawn_Volume.uasset" 391
+"D:/Da Vinci/Tank_To_Target/Content/Levels/Level_1_BuiltData.uasset" 392
+"D:/Da Vinci/Tank_To_Target/Content/Audio/Announcer/GO.uasset" 393
+"D:/Da Vinci/Tank_To_Target/Content/Audio/Lv_1.uasset" 394
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Plants_Opacity.uasset" 395
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Plants_Texture.uasset" 396
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Plane048Mat.uasset" 397
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Plants.uasset" 398
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Floor_Texture.uasset" 399
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Piso_AfueraMat.uasset" 400
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Stage_Opacity.uasset" 401
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Texturas/Stage_Texture.uasset" 402
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/PlaneMat.uasset" 403
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Stage/Stage.uasset" 404
+"D:/Da Vinci/Tank_To_Target/Content/Levels/Level_1.umap" 405
+"D:/Da Vinci/Tank_To_Target/Content/Levels/Level_2_BuiltData.uasset" 406
+"D:/Da Vinci/Tank_To_Target/Content/Audio/Lv_2.uasset" 407
+"D:/Da Vinci/Tank_To_Target/Content/Levels/Level_2.umap" 408
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinhulk_l_shaw_Skeleton.uasset" 409
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/Animations/Standing_1H_Magic_Attack_01.uasset" 410
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/Animations/Standing_React_Death_Backward.uasset" 411
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/Animations/Standing_Run_Forward.uasset" 412
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/Animations/Standing_Walk_Forward.uasset" 413
+"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/MyAnim_BP.uasset" 414
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/CIlinders_Texture.uasset" 415
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Cylinder001Mat.uasset" 416
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Cylinder002Mat.uasset" 417
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Cylinder003Mat.uasset" 418
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Sphere_Texture.uasset" 419
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Sphere001Mat.uasset" 420
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Bullet/Boss_Bullet.uasset" 421
+"D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/MyBossBullet_BP.uasset" 422
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinHulk_diffuse.uasset" 423
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinHulk_normal.uasset" 424
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/PumpkinHulk_Material.uasset" 425
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinhulk_l_shaw_PhysicsAsset.uasset" 426
+"D:/Da Vinci/Tank_To_Target/Content/Objects/Boss_Animated/pumpkinhulk_l_shaw.uasset" 427
 "D:/Da Vinci/Tank_To_Target/Content/Blueprints/Scene_Objects/MyBoss_BP.uasset" 428
 "D:/Da Vinci/Tank_To_Target/Content/Levels/Level_3_BuiltData.uasset" 429
 "D:/Da Vinci/Tank_To_Target/Content/Audio/Lv_3.uasset" 430
